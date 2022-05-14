@@ -23,7 +23,7 @@
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
-* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
+* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Twitter-Solana-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
 
 ## Setup
 
@@ -99,7 +99,7 @@ The config file **./config/config.json** will look something like this:
 * [-p]: The sale price in ADA (Ex. 10 ADA)
 * [-u]: The NFT's unit ID
 * [-i]: The NFT image url (Not needed to display the NFT image)
-* [-s]: The source of the sale (Ex. magiceden_v2)
+* [-s]: The source of the sale (Ex. jpg.store)
 
 For example, 
 ```
@@ -125,7 +125,7 @@ BOOM💥 SpaceBudz #001 just sold for 1000.54 ADA ($500.37 USD)
 - [Twitter](https://twitter.com/WilliamAmbrozic)
 
 ## ADA Tip Jar
-  * 
+  * addr1q8mhqvmp4g0chp87v8ydrlrmxf4402thtd26a3a3e8fxx2q9yu4vpjf6g5t7ygf0cy08ayr3hc8zxtefx0d7qq4hw2tsug75ry
 ### Bitcoin
   * bc1qa7vkam2w4cgw8njqx976ga5ns8egsq3yzxzlrt
 
