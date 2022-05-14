@@ -35,8 +35,8 @@
 
 Clone and install Python requirements with
 ```
-git clone https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot.git
-cd Responsive-Cardano-NFT-Sales-Bot
+git clone https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot.git
+cd Twitter-Cardano-NFT-Sales-Bot
 pip install -r requirements.txt
 ```
 
