@@ -23,7 +23,7 @@
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
-* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
+* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Twitter-Solana-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
 
 ## Setup
 
