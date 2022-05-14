@@ -9,7 +9,7 @@
 **Note: this bot was tested on an EC2 AWS instance and a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**. Usable on Windows/Unix based servers.
 
 ## Contents
-- [Example](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Demo)  
+- [Demo](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Demo)  
 - [Setup](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Setup)  
   - [Installing](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Installing-the-Bot) 
   - [Adding Credentials](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Adding-Credentials)
@@ -17,13 +17,13 @@
 - [Config (Customize)](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Config)
 - [Free Use](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Free-Use)
 - [Find Me](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#find-me)
-- [Tip Jar](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Solana-Tip-Jar)
+- [Tip Jar](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#ADA-Tip-Jar)
 
 ## Demo
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
 
-* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (my bot from [my Solana bot](https://github.com/WilliamAmbrozic/Responsive-Solana-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
+* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Responsive-Solana-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
 
 ## Setup
 
