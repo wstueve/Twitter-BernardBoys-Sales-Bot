@@ -9,29 +9,29 @@
 **Note: this bot was tested on an EC2 AWS instance and a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**. Usable on Windows/Unix based servers.
 
 ## Contents
-- [Demo](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Demo)  
-- [Setup](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Setup)  
-  - [Installing](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Installing-the-Bot) 
-  - [Adding Credentials](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Adding-Credentials)
-  - [Running](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Running-the-Bot)  
-- [Config (Customize)](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Config)
-- [Free Use](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Free-Use)
-- [Find Me](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#find-me)
-- [Tip Jar](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#ADA-Tip-Jar)
+- [Demo](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Demo)  
+- [Setup](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Setup)  
+  - [Installing](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Installing-the-Bot) 
+  - [Adding Credentials](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Adding-Credentials)
+  - [Running](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Running-the-Bot)  
+- [Config (Customize)](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Config)
+- [Free Use](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Free-Use)
+- [Find Me](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#find-me)
+- [Tip Jar](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#ADA-Tip-Jar)
 
 ## Demo
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
-* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Responsive-Solana-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
+* The core of this code is used by [ThreeRarity](https://twitter.com/ThreeRarity) for Solana NFTs (bot from [my Solana repo](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)). This should give you an idea of how the bot will tweet Cardano sales.
 
 ## Setup
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 ## Installing the Bot
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 Clone and install Python requirements with
 ```
@@ -42,11 +42,11 @@ pip install -r requirements.txt
 
 ## Adding Credentials
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 ### 1. Add Your NFT Policy ID to the Config.json
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection's policy ID can be found by going to https:opencnft.io/ and searching for your collection. Once on the project page look for Policy ID and copy, this is needed for the bot to know what collection to tweet out. Paste this value in the **./config/config.json** attribute called **policy** as seen [here](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Config).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection's policy ID can be found by going to https:opencnft.io/ and searching for your collection. Once on the project page look for Policy ID and copy, this is needed for the bot to know what collection to tweet out. Paste this value in the **./config/config.json** attribute called **policy** as seen [here](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Config).
 
 ### 2. Add your Twitter Developer Credentials to the Config.json
 
@@ -56,11 +56,11 @@ pip install -r requirements.txt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Make sure that the Access Token and Secret has been created with Read and Write permissions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D. Place your Twitter developer credentials in **./config/config.json** as seen [here](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#Config).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D. Place your Twitter developer credentials in **./config/config.json** as seen [here](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Config).
 
 ## Running the Bot
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 Run with 
 ```
@@ -73,7 +73,7 @@ nohup python3 bot.py &
 
 ## Config
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 The config file **./config/config.json** will look something like this:
 ```
@@ -115,7 +115,7 @@ BOOM💥 SpaceBudz #001 just sold for 1000.54 ADA ($500.37 USD)
 
 ## Free Use
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This bot is 100% free to use. Use of this bot for your project is encouraged. **No credit is needed for the creator**; however, please credit [opencnft.io](https://api.opencnft.io/1/) (data provider) according to their preference. If you find this bot useful and insist on crediting the creator, you can add @williamambrozic in the bot's Twitter bio or have the bot follow @williamambrozic on Twitter. Thank you 🙂
 
