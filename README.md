@@ -99,7 +99,7 @@ The config file **./config/config.json** will look something like this:
 * [-p]: The sale price in ADA (Ex. 10 ADA)
 * [-u]: The NFT's unit ID
 * [-i]: The NFT image url (Not needed to display the NFT image)
-* [-s]: The source of the sale (Ex. magiceden_v2)
+* [-s]: The source of the sale (Ex. jpg.store)
 
 For example, 
 ```
