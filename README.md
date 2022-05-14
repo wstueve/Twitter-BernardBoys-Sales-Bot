@@ -125,7 +125,7 @@ BOOM💥 SpaceBudz #001 just sold for 1000.54 ADA ($500.37 USD)
 - [Twitter](https://twitter.com/WilliamAmbrozic)
 
 ## ADA Tip Jar
-  * 
+  * addr1q8mhqvmp4g0chp87v8ydrlrmxf4402thtd26a3a3e8fxx2q9yu4vpjf6g5t7ygf0cy08ayr3hc8zxtefx0d7qq4hw2tsug75ry
 ### Bitcoin
   * bc1qa7vkam2w4cgw8njqx976ga5ns8egsq3yzxzlrt
 
