@@ -81,14 +81,14 @@ def compress(filename):
         size = os.stat(filename).st_size
 
 #Sends a tweet based on sale data and NFT metadata
-def send_tweet(api, client, meta):
-    image = requests.get(meta['thumbnail']['thumbnail'].replace("ipfs://", "https://ipfs.io/ipfs/")).content
+def send_tweet(api, client, sales_data):
+    image = requests.get(sales_data['thumbnail']['thumbnail'].replace("ipfs://", "https://ipfs.io/ipfs/")).content
     filename = './tmp'
     with open(filename, 'wb') as handler:
         handler.write(image)
     #compress(filename)
     mediaID = api.media_upload(filename)
-    client.create_tweet(text=convert_tweet(sale_data), media_ids=[mediaID.media_id])
+    client.create_tweet(text=convert_tweet(sales_data), media_ids=[mediaID.media_id])
 
 ######################### DRIVER CODE #########################################
 
