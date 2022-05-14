@@ -2,7 +2,7 @@
 
 ## Preface
 
-[[Back to contents]](https://github.com/WilliamAmbrozic/Responsive-Cardano-NFT-Sales-Bot#contents)
+[[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This bot allows for custom tweet text and fast response times. The bot utilizes [opencnft.io](https://opencnft.io/)'s ```transactions``` API call (source of NFT & sales data), responding to sales in less than a minute while allowing for NFT image uploading. This bot is designed to run on an external server.
 
