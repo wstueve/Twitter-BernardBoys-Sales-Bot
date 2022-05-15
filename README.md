@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ### 1. Add Your NFT Policy ID to the Config.json
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection's policy ID can be found by going to [opencnft.io](https:opencnft.io/) and searching for your collection. Once on the project page look for Policy ID and copy, this is needed for the bot to know what collection to tweet out. Paste this value in the **./config/config.json** attribute called **policy** as seen [here](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Config).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A collection's policy ID can be found by going to [opencnft.io](https://opencnft.io/) and searching for your collection. Once on the project page look for Policy ID and copy, this is needed for the bot to know what collection to tweet out. Paste this value in the **./config/config.json** attribute called **policy** as seen [here](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Config).
 
 ### 2. Add your Twitter Developer Credentials to the Config.json
 
