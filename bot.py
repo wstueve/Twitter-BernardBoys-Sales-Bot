@@ -65,6 +65,7 @@ def convert_tweet(sale_data):
     text = text.replace("[-u]", str(sale_data["unit"]))
     text = text.replace("[-i]", str(sale_data["thumbnail"]["thumbnail"]))
     text = text.replace("[-s]", str(sale_data["marketplace"]))
+    text = text.replace("[-t]", str(sale_data["tx_id"]))
     return text
 
 #optional compression
