@@ -100,7 +100,7 @@ The config file **./config/config.json** will look something like this:
 * [-u]: The NFT's unit ID
 * [-i]: The NFT image url (Not needed to display the NFT image)
 * [-s]: The source of the sale (Ex. jpg.store)
-* [-t]: tx_id (transaction id)
+* [-t]: tx_id (transaction id) - can be appended to adascan for proof
 
 For example, 
 ```
