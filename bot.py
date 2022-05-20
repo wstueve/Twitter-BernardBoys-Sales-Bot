@@ -3,10 +3,6 @@ import time
 import json
 import tweepy
 import yfinance as yf
-import os.path
-from os import path
-from PIL import Image
-import PIL
 
 ######################### GLOBAL DEFINITIONS #########################################
 
@@ -67,19 +63,6 @@ def convert_tweet(sale_data):
     text = text.replace("[-s]", str(sale_data["marketplace"]))
     text = text.replace("[-t]", str(sale_data["tx_id"]))
     return text
-
-#optional compression
-def compress(filename):
-    picture = Image.open(filename)
-    size = os.stat(filename).st_size
-
-    while size > COMP_SIZE:
-        picture = picture.resize((int(picture.size[0]/2), int(picture.size[0]/2)))
-        size = os.stat(filename).st_size
-        if size > COMP_SIZE:
-            break;
-        picture.save(filename,optimize=True,quality=65)
-        size = os.stat(filename).st_size
 
 #Sends a tweet based on sale data and NFT metadata
 def send_tweet(api, client, sales_data):
