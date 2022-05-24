@@ -70,7 +70,7 @@ def send_tweet(api, client, sales_data):
     filename = './tmp'
     with open(filename, 'wb') as handler:
         handler.write(image)
-    #compress(filename)
+    #compress here
     mediaID = api.media_upload(filename)
     client.create_tweet(text=convert_tweet(sales_data), media_ids=[mediaID.media_id])
 
