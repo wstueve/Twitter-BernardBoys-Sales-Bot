@@ -8,7 +8,7 @@
 
 **1st Note: In the rare case that your NFT file sizes are greater than 3mb, they will have to be compressed prior to being uploaded.** Please see the comment <#compress here> in the send_tweet function - place your function that compresses the ```tmp``` file there. For standard image files there are many resources online for python compression. For gifs, [this gist](https://gist.github.com/skywodd/8b68bd9c7af048afcedcea3fb1807966) may be of help.
 
-**2nd Note: This bot assumes the [cnft.io](https://opencnft.io/) transactions api endpoint only outputs sales data and outputs the correct data. Please test the bot prior to production.
+**2nd Note:** This bot assumes the [cnft.io](https://opencnft.io/) transactions api endpoint only outputs sales data and outputs the correct data. Please test the bot prior to production.
 
 ## Contents
 - [Setup](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#Setup)  
