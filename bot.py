@@ -18,9 +18,6 @@ supported_fiat = ["EUR", "USD", "CAD", "JPY", "GPB", "AUD", "CNY", "INR"]
 safety_delay = 0.05
 delay = (1/config['TPS']) + safety_delay
 
-#MAX TWEEPY IMAGE SIZE
-COMP_SIZE = 3072000
-
 client = tweepy.Client(bearer_token=config['twitter_credentials']['bearer_token'],
                        consumer_key=config['twitter_credentials']['consumer_key'],
                        consumer_secret=config['twitter_credentials']['consumer_secret'],
