@@ -4,7 +4,7 @@
 
 [[Back to contents]](https://github.com/WilliamAmbrozic/Twitter-Cardano-NFT-Sales-Bot#contents)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This bot allows for custom tweet text and fast response times. The bot utilizes [opencnft.io](https://opencnft.io/)'s ```transactions``` API call (source of NFT & sales data), responding to sales in less than a minute while allowing for NFT image uploading. This bot is designed to run on an external server. **This bot was tested on an EC2 AWS instance and a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**. Usable on Windows/Unix based servers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This bot allows for custom tweet text and fast response times. The bot utilizes [opencnft.io](https://opencnft.io/)'s ```transactions``` API call (source of NFT & sales data), responding to sales in less than a minute while allowing for NFT image uploading. This bot is designed to run on an external server. **This bot was tested on an EC2 AWS instance and a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**. Usable on Unix based servers.
 
 **1st Note: In the rare case that your NFT file sizes are greater than 3mb, they will have to be compressed prior to being uploaded.** Please see the comment <#compress here> in the send_tweet function - place your function that compresses the ```tmp``` file there. For standard image files there are many resources online for python compression. For gifs, [this gist](https://gist.github.com/skywodd/8b68bd9c7af048afcedcea3fb1807966) may be of help.
 
