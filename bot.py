@@ -1,8 +1,10 @@
+import os
 import requests
 import time
 import json
 import tweepy
 import yfinance as yf
+from PIL import Image
 
 ######################### GLOBAL DEFINITIONS #########################################
 
@@ -64,13 +66,25 @@ def convert_tweet(sale_data):
 #Sends a tweet based on sale data and NFT metadata
 def send_tweet(api, client, sales_data):
     image = requests.get(sales_data['thumbnail']['thumbnail'].replace("ipfs://", "https://ipfs.io/ipfs/")).content
-    filename = './tmp'
-    with open(filename, 'wb') as handler:
-        handler.write(image)
-    #compress here
-    mediaID = api.media_upload(filename)
-    client.create_tweet(text=convert_tweet(sales_data), media_ids=[mediaID.media_id])
+    filename = config["image_folder"] + sales_data["unit_name"] + "_orignal.png"
+    small_filename = config["image_folder"] + sales_data["unit_name"] + ".png"
+    if not os.path.exists(small_filename):
+        with open(filename, 'wb') as handler:
+            handler.write(image)
 
+        #compress here
+        this_image = Image.open(filename)
+        width, height = this_image.size
+        TARGET_WIDTH = 500
+        coefficient = width / 500
+        new_height = height / coefficient
+        this_image = this_image.resize((int(TARGET_WIDTH),int(new_height)),Image.ANTIALIAS)
+        this_image.save(small_filename,quality=50)
+        this_image.close()
+        os.remove(filename)
+    
+    mediaID = api.media_upload(small_filename)
+    client.create_tweet(text=convert_tweet(sales_data), media_ids=[mediaID.media_id])
 ######################### DRIVER CODE #########################################
 
 #Checking valid currency
@@ -98,8 +112,9 @@ while True:
         if activity not in last_activities.keys():
             try:
                 send_tweet(api, client, activities[activity])
-                print(f"Tweeting: {convert_tweet(activities[activity])}")
-            except:
+                #print(f"Tweeting: {convert_tweet(activities[activity])}")
+            except Exception as e:
+                print(e)
                 print(f"ERROR: with NFT that Sold for {str(activities[activity]['price'])} Not Tweeted")
 
     last_activities = dict(activities)
